@@ -1,11 +1,11 @@
 const interval = setInterval(()=>{
-    const header = document.querySelector("._3auIg")
+    const header = document.querySelector("._1QUKR")
     if (header){
         console.log(header)
         clearInterval(interval)
 
         const button = document.createElement("button")
-        button.innerHTML = "2x"
+        button.innerHTML = "2X"
         button.classList.add("twoTimesButton")
 
         button.addEventListener("click", ()=>{
